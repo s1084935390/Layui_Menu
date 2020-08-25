@@ -56,9 +56,7 @@ element=layui.element;
     var data=[{"ID":1,"MenuIcon":"layui-icon layui-icon-set","MenuName":"系统设置","URL":null,"ParentID":null,"UserID":""} ]
      menu.render({
         id:"menu",//id
-        data:data,//菜单响应数据
-        element:element,//layui element 元素
-        filter:"menu" //过滤器
+        data:data //菜单响应数据 
      }) 
 
 
