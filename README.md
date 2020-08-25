@@ -3,6 +3,7 @@
  1、layui_Menu(layui版本二级菜单)  
    #### (1)html代码
   ```html
+ <script src="js/sys_menu.js"></script>
  <div class="layui-side layui-side-menu">
     <div class="layui-side-scroll">
         <div class="layui-logo" lay-href="home/console.html">
@@ -46,6 +47,7 @@ element=layui.element;
 #2、Menu(js版本二级菜单)  
    #### (1)html代码
   ```html 
+ <script src="js/sys_menu_min.js"></script>
         <ul  id="menu">
         </ul> 
 ```        
