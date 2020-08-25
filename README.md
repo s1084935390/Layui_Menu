@@ -3,7 +3,6 @@
  1、layui_Menu(layui版本二级菜单)  
    #### (1)html代码
   ```html
- <script src="js/sys_menu.js"></script>
  <div class="layui-side layui-side-menu">
     <div class="layui-side-scroll">
         <div class="layui-logo" lay-href="home/console.html">
@@ -14,7 +13,8 @@
     </div>
 ```        
 #### (2) js代码 调用
- ```javascript
+ ```javascript 
+ <script src="js/sys_menu.js"></script>
 <script>
 layui.use(["element"],function(){
 var $=layui.$,
@@ -47,12 +47,12 @@ element=layui.element;
 #2、Menu(js版本二级菜单)  
    #### (1)html代码
   ```html 
- <script src="js/sys_menu_min.js"></script>
         <ul  id="menu">
         </ul> 
 ```        
 #### (2) js代码 调用
- ```javascript
+ ```javascript 
+ <script src="js/sys_menu_min.js"></script>
 <script>
  
     var data=[{"ID":1,"MenuIcon":"layui-icon layui-icon-set","MenuName":"系统设置","URL":null,"ParentID":null,"UserID":""} ]
