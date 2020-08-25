@@ -39,7 +39,7 @@ element=layui.element;
 | MenuIcon | string| 图标 |
 | MenuName | string| 菜单名 |
 |  URL |string  | 菜单路径，最好是相对路径 |
-|  ParentID |string  | 菜单上级ID 和ID字段对应 |
+|  ParentID |string  | 菜单上级ID 和ID字段对应 ,ParentID 值未 null则为 一级菜单 |
 | UserID | string| 用户ID 可以和权限管理配合使用，因各项目开发场景不同，暂未开源，在此处无实际意义 |
 
 
@@ -72,6 +72,6 @@ element=layui.element;
 | MenuIcon | string| 图标 |
 | MenuName | string| 菜单名 |
 |  URL |string  | 菜单路径，最好是相对路径 |
-|  ParentID |string  | 菜单上级ID 和ID字段对应 |
+|  ParentID |string  | 菜单上级ID 和ID字段对应,ParentID 值未 null则为 一级菜单 |
 | UserID | string| 用户ID 可以和权限管理配合使用，因各项目开发场景不同，暂未开源，在此处无实际意义 |
 
